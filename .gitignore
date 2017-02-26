@@ -60,7 +60,3 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-modes/p5jsMode/examples/3D/ex01_sine_cosine_in_3D/ex01_sine_cosine_in_3D.js
-modes/p5jsMode/examples/3D/ex01_sine_cosine_in_3D/libraries/p5.js
-*.js
-*.html
