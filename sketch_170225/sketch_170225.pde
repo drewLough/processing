@@ -1,6 +1,9 @@
 /* [170225]
- * nested loops. randomized greyscale grid.
+ * nested loops. randomized greyscale grid. sqdim sets grid size.
+ * mouse button zooms in.
  */
+
+int sqdim = 20;
 
 void setup() {
   fullScreen();
@@ -10,10 +13,17 @@ void setup() {
 }
 
 void draw() {
-  for (int y = 0; y < height; y = y + 20) {
-    for (int x = 0; x < width; x = x + 20) {
+  for (int y = 0; y < height; y = y + sqdim) {
+    for (int x = 0; x < width; x = x + sqdim) {
       fill(random(255));
-      rect(x, y, 20, 20);
+      rect(x, y, sqdim, sqdim);
     }
+  }
+}
+
+void mousePressed() {
+  sqdim = sqdim * 10;
+  if (sqdim >= height) {
+    sqdim = 20;
   }
 }
