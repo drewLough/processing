@@ -2,8 +2,8 @@
  *    pattern in convergence
  *    nested for loops.
  */
-//density token
-int density = 20;
+//density token. increase to lower density.
+int density = 1080;
 
 void setup() {
   fullScreen();
