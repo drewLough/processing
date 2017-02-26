@@ -1,8 +1,8 @@
 /* [170225b]
-*    pattern in convergence
-*    nested for loops.
-*/
-
+ *    pattern in convergence
+ *    nested for loops.
+ */
+//density token
 int density = 20;
 
 void setup() {
@@ -20,7 +20,7 @@ void draw() {
   }
   //left side
   for (int y = 0; y <= height; y = y + density) {
-     line(0, y, mouseX, mouseY);
-     line(width, y, mouseX, mouseY);
+    line(0, y, mouseX, mouseY);
+    line(width, y, mouseX, mouseY);
   }
 }
