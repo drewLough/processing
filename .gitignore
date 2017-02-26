@@ -6,6 +6,13 @@ application.windows32
 application.windows64
 application.macosx
 
+#Processing Sketchbook Folders
+examples/
+libraries/
+modes/
+templates/
+tools/
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
@@ -27,7 +34,7 @@ $RECYCLE.BIN/
 
 # =========================
 # Operating System Files
-@@ -34,25 +45,3 @@ application.macosx
+application.macosx
 Network Trash Folder
 Temporary Items
 .apdisk
@@ -53,3 +60,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+modes/p5jsMode/examples/3D/ex01_sine_cosine_in_3D/ex01_sine_cosine_in_3D.js
+modes/p5jsMode/examples/3D/ex01_sine_cosine_in_3D/libraries/p5.js
+*.js
+*.html
