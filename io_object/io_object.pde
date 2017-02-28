@@ -1,9 +1,7 @@
 /* [170227]
- *  makin my own logo in processing  
+ *  my logo in processing  
  */
 
-int x;
-int y;
 int b = 0;
 int s = 75;
 
@@ -17,8 +15,8 @@ void draw() {
   rectMode(CENTER);
 
   // positioning
-  x = width/2;
-  y = height/2;
+  int x = width/2;
+  int y = height/2;
 
   // the i
   rect(x - s * 2, y, s, s * 3);
@@ -27,6 +25,6 @@ void draw() {
   // the inner o
   fill(b);
   rect(x + s, y, s, s);
- // record
-  saveFrame();
+  // record. disabled for general use.
+  // saveFrame();
 }
