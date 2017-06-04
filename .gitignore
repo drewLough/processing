@@ -1,4 +1,8 @@
 .DS_Store
+
+#Linux Ignores
+comps/
+
 applet
 application.linux32
 application.linux64
