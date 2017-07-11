@@ -1,5 +1,5 @@
 /* [170228]
- concentric dreams
+ concentric dreams - circle
  */
 
 void setup () {
