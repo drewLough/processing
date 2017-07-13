@@ -1,8 +1,9 @@
-/** [161202]
+/** 161202 - markerboard
  *  Move the mouse to draw a continuous line of squares. 
  *  Pressing the mouse button refreshes the screen & inverts colors.  
  */
 
+// siwtch for inverse
 boolean bg = false;
 
   void setup() {

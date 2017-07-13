@@ -1,15 +1,23 @@
-/* [170227]
- *  my logo in processing  
+/* 170227 : io logo
+ *  my logo, recreated in processing  
  */
-
+// the color black
 int b = 0;
-int s = 75;
+// the size unit variable
+int s = 150;
 
-void setup() {
+void setup() 
+{
+  // create bg
   size(600, 600);
 }
-void draw() {
+
+void draw() 
+{
+  // fill bg
   background(b);
+  
+  // shape properties
   noStroke();
   fill(random(255));
   rectMode(CENTER);

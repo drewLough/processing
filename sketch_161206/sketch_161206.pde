@@ -1,4 +1,4 @@
-/**  [120616]
+/**  161206 : 
  *    press the mouse button to begin spawning particles in that area.
  *    leave running for best results.
  */
@@ -15,17 +15,20 @@ void setup() {
   circleY = height/2;
 }
 
+// continuously redraw the circle in a random location
 void draw() {
   ellipse(circleX, circleY, 1, 1);
   circleX = circleX + random(-10, 10);
   circleY = circleY + random(-10, 10);
 }
 
+// relocate the circle
 void mousePressed() {
   circleX = mouseX;
   circleY = mouseY;
 }
 
-void keyPressed( ) {
+// take a screenshot
+void keyPressed() {
   save("120616_.jpeg");
 }
